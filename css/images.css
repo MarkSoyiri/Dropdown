@@ -1,0 +1,45 @@
+.img{
+    width: 300px;
+    height: 200px;
+   
+ 
+
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.youtube{
+    display: flex;
+    gap: 5px;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 45px;
+    text-decoration:wavy;
+}
+.nav .home:hover{
+    background-color: rgb(226, 17, 17);
+    
+}
+.nav .about:hover{
+    background-color: rgb(249, 249, 32);
+    
+}
+.nav .price:hover{
+    background-color: rgb(41, 62, 224);
+    
+}
+.child{
+    display: none;
+}
+
+

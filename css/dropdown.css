@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: rgba(0, 255, 255, 0.489);
+    border: none;
+    border-radius: ;
+    box-shadow:  1px 0.5px 0.5px 0.7px;
+    padding: 5px 5px;
+    text-align: center;
+    cursor: pointer;
+    
+
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+
+}
+.dropdown .container{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 100px;
+    box-shadow: 1px 1px 5px 1px rgba(39, 39, 39, 0.618);
+}
+.dropdown:hover .container{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgba(0, 255, 255, 0.981);
+}
+.dropdown a:hover{
+    background-color: rgba(197, 217, 234, 0.996);
+}
+.nave{
+    list-style: none;
+    height: 90px;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+.list{
+    display: none;
+}
+.nave li:hover  .list{
+    width: 100px;
+    row-gap: 15px;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:;
+    position: absolute;
+    color: black;
+    background-color: rgb(218, 244, 244);
+    border: 1px solid rgb(63, 61, 61);
+    box-shadow: 1px 1px 1px 1px;
+    padding: 0%;
+    padding: 5px;
+}
+/* .nave li .list:hover .section{
+    color:red;
+} */
+.nave .list li:hover {
+    background-color: antiquewhite;
+    /* border: 1px solid black; */
+    
+}
+.section{
+    display: none;
+}
+.list li:hover .section{
+    width: 100px;
+    row-gap: 10px;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:;
+    position: absolute;left: 105px;top: 10px;
+    background-color: rgb(218, 244, 244);
+    color: black;
+    border: 1px solid rgb(63, 61, 61);
+    box-shadow: 1px 1px 1px 1px;
+    padding: 0%;
+    padding: 5px;
+}
+.part{
+    display: none;
+}
+.nave .menu:hover {
+    background-color: rgb(43, 42, 42);
+    border: 1px solid white;
+    padding: 5px;
+
+}
+.list li:hover .part{
+    width: 100px;
+    row-gap: 10px;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:;
+    position: absolute;left: 100px;top: 40px;
+    background-color: rgb(218, 244, 244);
+    color: black;
+    border: 1px solid rgb(63, 61, 61);
+    box-shadow: 1px 1px 1px 1px;
+    padding: 0%;
+    padding: 5px;
+}
+.level{
+    display: none;
+}
+.list li:hover .level{
+    width: 100px;
+    row-gap: 10px;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:;
+    position: absolute;left: 100px;top: 80px;
+    background-color: rgb(218, 244, 244);
+    color: black;
+    border: 1px solid rgb(63, 61, 61);
+    box-shadow: 1px 1px 1px 1px;
+    padding: 0%;
+    padding: 5px;
+}
+.dept{
+    display: none;
+}
+.list li:hover .dept{
+    width: 100px;
+    row-gap: 10px;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:;
+    position: absolute;left: 100px;top: 120px;
+    background-color: rgb(218, 244, 244);
+    color: black;
+    border: 1px solid rgb(63, 61, 61);
+    box-shadow: 1px 1px 1px 1px;
+    padding: 0%;
+    padding: 5px;
+}
+.temp{
+    display: none;
+}
+.list li:hover .temp{
+    width: 100px;
+    row-gap: 10px;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:;
+    position: absolute;left: 100px;top: 160px;
+    background-color: rgb(218, 244, 244);
+    color: black;
+    border: 1px solid rgb(63, 61, 61);
+    box-shadow: 1px 1px 1px 1px;
+    padding: 0%;
+    padding: 5px;
+}
+.sect{
+    display: none;
+}
+.list li .section:hover .sect{
+    width: 100px;
+    row-gap: 10px;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:;
+    position: absolute;left: 104px;top: 10px;
+    background-color: rgb(218, 244, 244);
+    color: black;
+    border: 1px solid rgb(63, 61, 61);
+    box-shadow: 1px 1px 1px 1px;
+    padding: 0%;
+    padding: 5px;
+}

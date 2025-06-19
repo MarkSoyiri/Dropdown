@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="css/form.css">
+
+</head>
+<body>
+
+<section class="mainbox">
+
+<form  method="get" class="formbox" id="form">
+    
+    <input type="text" name="firstname" id="firstname" placeholder="Firstname" required>
+    <input type="text" name="surname" id="surname" placeholder="Surname" required>
+    <input type="email" name="email" id="email" placeholder="E-mail" required>
+    <input type="tel" name="phone" id="phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="13">
+
+    <label for="myself">Describe YourSelf:</label>
+    <textarea name="myself" id="myself" placeholder="Describe Yourself" minlength="5" maxlength="150" rows="15" cols="25"></textarea>
+    
+    <label for="favcolor" name="favcolor" id="favcolor">Choose your favourite Colour:</label>
+    <select name="favcolour" id="favcolour">
+        <option value="red" name="red" id="red">Red</option>
+        <option value="yellow" name="yellow" id="yellow">Yellow</option>
+        <option value="green" name="green" id="green">Green</option>
+        <option value="" name="blue" id="blue">Blue</option>
+    </select>
+  
+    <label for="favouritefood">Select your favourite food:</label>
+  <div class="check">
+    <div>
+        <label for="waakye">Waakye</label>
+        <input type="checkbox" name="waakye" id="waakye" value="waakye">
+    </div>
+
+    <div>
+        <label for="shawarma">Shawarma</label>
+        <input type="checkbox" name="shawarma" id="shawarma" value="shawarma">
+    </div>
+
+    <div>
+        <label for="Plainrice">Plain Rice</label>
+        <input type="checkbox" name="Plainrice" id="Plainrice" value="plainrice">
+    </div>
+
+    <div>
+        <label for="springrolls">Spring Rolls</label>
+        <input type="checkbox" name="springrolls" id="springrolls" value="springrolls">
+    </div>
+  </div>
+
+
+  <label for="gender">Gender:</label>
+ <div class="check">
+
+    <div>
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male" value="male">
+    </div>
+
+    <div>
+        <label for="female">Female:</label>
+        <input type="radio" name="gender" id="female" value="female">
+    </div>
+
+    <div>
+        <label for="other">Other:</label>
+        <input type="radio" name="gender" id="other" value="other">
+    </div>
+
+    
+
+ </div>
+
+  
+
+    <input type="submit" value="Sign Up" id="Sign Up">
+
+
+
+
+    
+</form>
+
+</section>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
